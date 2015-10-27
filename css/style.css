@@ -1,13 +1,18 @@
+html, body, div, span, h1, h2, h3, h5, img, i, ul, li, footer, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
 head {
 	display: none;
 }
 body {
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
-	display: block;
-	font: inherit;
-	vertical-align: baseline;
-	box-sizing: border-box;
 	line-height: 1;
 }
 .top-navigation {
@@ -43,7 +48,7 @@ body {
 	cursor: pointer;
 	color: #333333;
 }
-ol, ul {
+ul {
 	list-style: none;
 }
 .top-navigation .logo {
@@ -117,10 +122,58 @@ button:hover {
 	font-size: 1.563rem;
 	margin: 2.5rem 0px 1.875rem;
 }
-
-
-
-
-
-
+.social {
+	background-color: #fff;
+	overflow: auto;
+	padding-bottom: 9.375rem;
+	text-align: center;
+}
+.social hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+}
+.social .icons > li {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	margin: 1.25rem 5px;
+	border: 1px solid #eaebec;
+	padding: 0.625rem 0;
+	text-align: center;
+}
+.social .icons > li:hover {
+	cursor: pointer;
+}
+.social .twitter {
+	color: #55acee;
+}
+.social .facebook {
+	color: #4c66a4;
+}
+.social .instagram {
+	color: #3f729b;
+}
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+.fa-twitter:before {
+	content: "\f099";
+}
+.fa-faceboot:before {
+	content: "\f09a";
+}
+.fa-instagram:before {
+	content: "\f16d";
+}
+.social .copy {
+	font-size: 0.9rem;
+	font-weight: 300;
+	color: #838994;
+}
 
